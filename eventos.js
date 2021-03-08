@@ -1,4 +1,4 @@
-class Events {
+class Eventos {
     constructor() {
         // Propriedades Privadas
         var listenedEvents = [];
@@ -29,5 +29,7 @@ class Events {
         }
     }
 }
+
+module.exports = Eventos;
 
 
